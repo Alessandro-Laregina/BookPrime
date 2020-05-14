@@ -1,0 +1,211 @@
+html, body {
+    background-color: rgb(33, 107, 107);
+    font-family: 'Fredoka One', cursive;
+}
+
+/* DIV CHE STAMPA SE NON TROVA I LIBRI */
+
+#nop {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* COVER DEI LIBRI */
+
+.cover {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 170px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+:hover .cover {
+    cursor: pointer;
+}
+
+#frase {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+/* GESTIONE DEGLI SPAZI DEI COL */
+
+.col-auto {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 476px) {
+    .col-auto {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+
+#navbar {
+    background-color: grey;
+}
+
+#text {
+    width: 1000px;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(32, 31, 36);
+}
+
+:hover #text {
+    cursor: pointer;
+}
+
+#info {
+    display: none;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1020px) {
+    #text {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #text {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    #text {
+        width: 100%;
+    }
+}
+
+.grass {
+    font-weight: bold;
+}
+
+#sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    color: gold;
+    z-index: 5;
+}
+
+#top {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    bottom: 5px;
+    display: none;
+}
+
+.descrizione {
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+:hover #top {
+    cursor: pointer;
+}
+
+#form {
+    display: none;
+    justify-content: center;
+    width: max-content;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+#invia {
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    #form {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #form {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #form {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #form {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #form {
+        width: 300px;
+    }
+}
+
+#maps {
+    display: none;
+    justify-content: center;
+    width: max-content;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+#iframe {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    border: 0
+}
+
+@media screen and (max-width: 992px) {
+    #iframe {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #iframe {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #iframe {
+        margin-top: -80px;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}
